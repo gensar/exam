@@ -36,11 +36,11 @@
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:150px 0;}
 
-#pageintro article *{text-transform:uppercase;}
-#pageintro article .heading{margin:0 0 50px 0; padding:0; line-height:1; font-size:64px;}
-#pageintro article p:first-of-type{margin-bottom:20px; font-size:26px;}
-#pageintro article footer{margin-top:80px;}
-#pageintro article footer a{padding-bottom:5px; border-bottom:2px solid;}
+#pageintro header *{text-transform:uppercase;}
+#pageintro header .heading{margin:0 0 50px 0; padding:0; line-height:1; font-size:64px;}
+#pageintro header p:first-of-type{margin-bottom:20px; font-size:26px;}
+#pageintro header div.header-bottom{margin-top:80px;}
+#pageintro header div.header-bottom a{padding-bottom:5px; border-bottom:2px solid;}
 
 
 /* Services
@@ -54,7 +54,7 @@
 #services article *{margin:0; line-height:1;}
 #services article i{display:inline-block; width:50px; height:50px; line-height:48px; margin-bottom:20px; border:1px solid; text-align:center; font-size:24px;}
 #services article .heading{margin-bottom:10px; font-size:1.2rem;}
-#services article p{margin-bottom:10px; line-height:1.4;}
+#services article p{margin-bottom:10px; line-height:1.4; text-align:justify;}
 
 
 /* Content Area
@@ -383,4 +383,26 @@ table a, #comments a{background-color:inherit;}
 
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
+}
+
+.orange-txt{
+	color:orange;
+}
+.lightblue-txt{
+	color:lightblue;
+}
+.silver-txt{
+	color:silver;
+}
+.txt-align-justify{
+	text-align:justify;
+}
+.no-display{
+	display:none;
+}
+#bgded1{
+	background-image:url('../images/demo/backgrounds/01.png');
+}
+#bgded2{
+	background-image:url('../images/demo/backgrounds/02.png');
 }
