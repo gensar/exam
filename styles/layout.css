@@ -385,6 +385,7 @@ table a, #comments a{background-color:inherit;}
 	.font-x3{font-size:1.6rem;}
 }
 
+
 .orange-txt{
 	color:orange;
 }
@@ -405,4 +406,26 @@ table a, #comments a{background-color:inherit;}
 }
 #bgded2{
 	background-image:url('../images/demo/backgrounds/02.png');
+}
+.bgded{
+	background-image:url('../images/demo/backgrounds/01.png');
+}
+
+#comic-con{
+	text-align: justify;
+	font-family: Comic Sans MS;
+}
+
+#comic-con-italic{
+	text-align: justify;
+	font-family: Comic Sans MS;
+	font-style: italic;font-weight:600;
+}
+
+#comments ul, #sdb-holder{
+	background-color: silver;
+}
+
+#sdb-holder ul{
+	color: black !important;
 }
